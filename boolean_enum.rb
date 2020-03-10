@@ -17,8 +17,12 @@ all_odd #=> true
 
 [1,3].none?{|i| i.even?} 
 
+<<<<<<< HEAD
 [1,2,100].any?{|i| i > 99} 
 
 the_numbers = [4,8,15,16,23,42]
 the_numbers.include?(42)   #=> true
 the_numbers.include?(6)   #=> false
+=======
+[1,2,100].any?{|i| i > 99} 
+>>>>>>> 63d3759ab636a9395c4bff52db8d836c56f598f1
